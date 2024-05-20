@@ -1,10 +1,9 @@
 // Require necessary modules
 const express = require('express');
 const mysql = require('mysql');
-require('dotenv').config();
 const bodyParser = require('body-parser');
 const session = require('express-session');
-
+require('dotenv').config(); 
 // Create an Express app
 const app = express();
 
