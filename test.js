@@ -3,7 +3,7 @@ const express = require('express');
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-require('dotenv').config(); 
+
 // Create an Express app
 const app = express();
 
